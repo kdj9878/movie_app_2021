@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {HashRouter, Route} from "react-router-dom";
+import About from "./routes/About"
+import Home from './routes/Home';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(){
+
+
+
+  return <HashRouter>
+    <Route path="/" exact={true} component={Home}/>
+    {/* exact는 경로에 있는 것 아니면 randering을 하지 않는 다는 의미 */}
+    <Route path="/about" component={About} />
+    {/* 해당 path로 가서 해당 js파일을 보여준다 */}
+  </HashRouter>
 }
 
 export default App;

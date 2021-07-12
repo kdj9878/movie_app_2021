@@ -1,0 +1,12 @@
+.container{
+    position: relative;
+    top: 100px;
+}
+
+.movies{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

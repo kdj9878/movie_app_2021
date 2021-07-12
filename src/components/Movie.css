@@ -1,0 +1,26 @@
+.movies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie{
+    width: 500px;
+    height: auto;
+    background-color: rgb(255, 253, 246);
+    margin-bottom: 20px;
+    margin: 70px;
+    box-shadow: 3px 3px 3px 3px;
+}
+
+.movie__title, .movie__year{
+    text-align: center;
+}
+
+.img__div{
+    text-align: center;
+}
+
+.movie__img{
+    width: 200px;
+    height: 250px;
+}
