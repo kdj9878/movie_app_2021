@@ -1,0 +1,2 @@
+.movies{flex-wrap:wrap}.movie{width:500px;height:auto;background-color:#fffdf6;margin:70px;box-shadow:3px 3px 3px 3px}.img__div,.movie__title,.movie__year{text-align:center}.movie__img{width:200px;height:250px}.container{position:relative;top:100px}.movies{display:flex;margin:20px;flex-direction:row;justify-content:space-between}.header{position:absolute;width:100%;align-items:center;justify-content:center;background-color:#faebd7}.header,.header__div{display:flex}.header__text{font-size:30px}
+/*# sourceMappingURL=main.52e261b3.chunk.css.map */
