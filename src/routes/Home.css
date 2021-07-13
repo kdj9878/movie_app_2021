@@ -1,12 +1,18 @@
 .container{
+    display: flex;
     position: relative;
-    top: 100px;
+    top: 2px;
 }
 
 .movies{
     display: flex;
-    margin: 20px;
+    
     flex-direction: row;
     justify-content: space-between;
+
 }
 
+main.container{
+    margin-left: 7%;
+    margin-right: 7%;
+}
